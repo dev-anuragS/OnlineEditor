@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="editor-menu">
+        <button class="btn btn-dark">Dark Mode</button>
+        <button class="btn btn-light">Light Mode</button>
+        <button class="btn btn-run">Run</button>
+        <div class="live">
+            <label for="live">Live</label>
+            <input type="checkbox" id="live">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="editor" contenteditable="">
+                Write Your Code...
+            </div>
+        </div>
+        <div class="bar" title="Click and Drag"></div>
+        <div class="right">
+                <iframe src="" frameborder="0" class="iframe">
+
+                </iframe>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
